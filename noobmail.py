@@ -6,7 +6,7 @@ try:
 	import platform
 	import time
 except ModuleNotFoundError:
-	print("No has instalado los requerimientos, por favor ingrese en su terminal: 'pip install -r requirements.txt'")
+	print("No has instalado los requerimientos, por favor ingrese en su terminal: 'python install.py'")
 init(autoreset=True)
 YELLOW = Fore.YELLOW
 RED = Fore.RED
